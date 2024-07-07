@@ -13,7 +13,7 @@
 	- Only one upvote is allowed by each address for each question / answer
 	- An upvote should be automatically applied from the address creating a new question / answer
 - Modify the `Render` function to display if a question or answer is locked
-- Modify the `Render` function to display the number of upvotes for each question and answer
+- Modify the `Render` function to display the number of upvotes for each question and each of its answers
 
 No more `TODO:` labels going forward 😭
 You can do it!

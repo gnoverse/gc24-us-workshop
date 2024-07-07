@@ -12,7 +12,7 @@
 **Resources:**
 - [std.GetOrigSend](https://docs.gno.land/reference/stdlibs/std/chain#getorigsend) can be used to get and coins sent to the realm (and potentially saved for later use?)
 - A [banker](https://docs.gno.land/reference/stdlibs/std/banker) of type `BankerTypeRealmSend` enables coins to be sent from a realm to an address
-- We have been using `std.GetPrevRealm` to get the caller's address. `std.GetCurrentRealm` can be used to get the realm's address, just in case the banker need's this 😉
+- We have been using `std.PrevRealm` to get the caller's address. `std.CurrentRealm` can be used to get the realm's address, just in case the banker need's this 😉
 - The [faucet realm](https://github.com/gnolang/gno/tree/master/examples/gno.land/r/gnoland/faucet) contains examples of how to use the banker to send coins from a realm to an address
 - A note on links returned by `Render`
 	- Links to realms can optionally contain a suffix like `:<arguments>`.
@@ -20,7 +20,7 @@
 	- Clicking a link in the browser to navigate to this resource would result in the realm's `Render` function being called with an argument of `questions/0`. 
 
 **Testing:**
-- Run `gnodev *` from this direcotry to spin up the local node
+- Run `gnodev *` from this directory to spin up the local node
 - Post a question with a bounty
 	- Confirm the balance of the realm has increased and the balance of the caller has decreased
 	- The realm's address is `g1032dtg8dwd9vj50c9psrjs7a6vj9n0ahk8etkz`
