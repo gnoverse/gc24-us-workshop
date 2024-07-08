@@ -53,7 +53,7 @@ If you do not, run `gnokey add --recover test1` and enter the mnemonic `source b
 - reloading packages when file changes are made
 - starting a web server using `gnoweb` to provide a UI
 
-From this directory, try running `gnodev .`. If successful, the last line should be ``--- READY   ┃ I for commands and help, press `h` ``.
+From this directory, try running `gnodev *`. If successful, the last line should be ``--- READY   ┃ I for commands and help, press `h` ``.
 
 Notice there is file in a subdirectory, [gno.mod](r/gc24/setup/gno.mod). The module name is `gno.land/r/gc24/setup`.
 
