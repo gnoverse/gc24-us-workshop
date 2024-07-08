@@ -19,3 +19,6 @@ While the README for each phase has resources listed, here is a general list of 
 - https://docs.gno.land/concepts/realms
 - https://docs.gno.land/gno-tooling/cli/gno-tooling-gnodev
 - https://docs.gno.land/reference/stdlibs/
+
+## Slides
+https://docs.google.com/presentation/d/17VV8Z7kuQpv96FsDFaRTgpusZzacvQEoeMbnBw1eSTU/edit#slide=id.g2ea85af56d2_0_74
